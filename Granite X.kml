@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Granite X.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffaaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaaff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffaaff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Granite X</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						117.9296275920119,-35.05993490626932,0 117.9295800493182,-35.05996218630527,0 117.9294842896521,-35.06001311209408,0 117.9295430995801,-35.06005812381623,0 117.9296463606479,-35.06009682424856,0 117.9297464345827,-35.06014821446308,0 117.9298378122548,-35.06017155636315,0 117.9299339790306,-35.06022988388438,0 117.9300055133274,-35.06025831911295,0 117.9300660635082,-35.06028762166684,0 117.9301385519279,-35.0602407479051,0 117.9301124322029,-35.06020044170501,0 117.930046472522,-35.06019897278089,0 117.930010151736,-35.06014265891779,0 117.9299247593605,-35.06010079204859,0 117.9298204298702,-35.06002592865536,0 117.9297077356439,-35.05991148749163,0 117.9296275920119,-35.05993490626932,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
