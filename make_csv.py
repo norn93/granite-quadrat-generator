@@ -6,7 +6,7 @@ from shapely.geometry.polygon import Polygon
 
 # Stuff for Josie to change ###########################################################################################
 
-GRANITE_NAME = "Granite X"
+GRANITE_NAME = "Granite 52"
 NUMBER_OF_COORDINATES = 20
 
 # End of stuff for Josie to change ####################################################################################
